@@ -1,8 +1,6 @@
 import sys
 input = sys.stdin.readline
 
-
-
 def backtrack(start, path):
   if len(path) == M :
     print(' '.join(map(str, path)))
